@@ -30,14 +30,18 @@ function ColorEvents() {
         var calendar = calendars[i];
         var events = calendar.getEvents(today, nextweek);
         for (var j=0; j<events.length; j++) {
-            var e = events[j];
-            var title = e.getTitle();
-            
-            // change string inside of includes and/or add multiple conditions to change event color
-            if (title.includes("- Technical Interview -")) {
-                //colors available https://developers.google.com/apps-script/reference/calendar/event-color
-                e.setColor(CalendarApp.EventColor.YELLOW);
-            }
+          var e = events[j];
+          var title = e.getTitle();
+          
+          // change string inside of includes and/or add multiple conditions to change event color
+          if (title.includes("- Technical Interview -")) {
+              //colors available https://developers.google.com/apps-script/reference/calendar/event-color
+              e.setColor(CalendarApp.EventColor.YELLOW);
+          }
+          if (title.includes("CANCELED")) {
+            //colors available https://developers.google.com/apps-script/reference/calendar/event-color
+            e.setColor(CalendarApp.EventColor.RED);
+          }
         }
       }
     }
