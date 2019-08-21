@@ -6,7 +6,7 @@ The original code for this comes from [Rick Pastoor's Blog Post](https://rickpas
 
 or I've copied them here:
 
-## WARNING: THIS Will EFFECT ALL CALENDARS YOU ARE AN OWNER OF
+## WARNING: THIS WILL EFFECT ALL CALENDARS YOU ARE AN OWNER OF
 
 1. Go to [https://script.google.com/home](https://script.google.com/home)
 
