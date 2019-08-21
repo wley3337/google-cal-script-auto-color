@@ -6,6 +6,8 @@ The original code for this comes from [Rick Pastoor's Blog Post](https://rickpas
 
 or I've copied them here:
 
+## WARNING: THIS WILL AFFECT ALL CALENDARS YOU ARE AN OWNER OF
+
 1. Go to [https://script.google.com/home](https://script.google.com/home)
 
 2. Click ‘New script’
