@@ -42,6 +42,10 @@ function ColorEvents() {
             //colors available https://developers.google.com/apps-script/reference/calendar/event-color
             e.setColor(CalendarApp.EventColor.RED);
           }
+          if (title.includes("- Prework")) {
+              //colors available https://developers.google.com/apps-script/reference/calendar/event-color
+              e.setColor(CalendarApp.EventColor.MAUVE);
+          }
         }
       }
     }
