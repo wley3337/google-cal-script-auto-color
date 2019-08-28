@@ -40,7 +40,7 @@ function ColorEvents() {
           }
           if (title.includes("CANCELED")) {
             //colors available https://developers.google.com/apps-script/reference/calendar/event-color
-            e.setColor(CalendarApp.EventColor.RED);
+            e.setColor(CalendarApp.EventColor.GRAY);
           }
           if (title.includes("- Prework")) {
               //colors available https://developers.google.com/apps-script/reference/calendar/event-color
