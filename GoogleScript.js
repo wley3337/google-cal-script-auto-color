@@ -34,6 +34,9 @@ function ColorEvents() {
             var title = e.getTitle();
             
             // change string inside of includes and/or add multiple conditions to change event color
+            // be sure to list these in inverse order of importance since like a switch statement
+            //it will hit all of the if's so if you want an updated event to change you should put the change lower 
+            //in the file
             if (title.includes("- Technical Interview -")) {
                 //colors available https://developers.google.com/apps-script/reference/calendar/event-color
                 e.setColor(CalendarApp.EventColor.YELLOW);
