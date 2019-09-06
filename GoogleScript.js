@@ -46,6 +46,10 @@ function ColorEvents() {
               //colors available https://developers.google.com/apps-script/reference/calendar/event-color
               e.setColor(CalendarApp.EventColor.MAUVE);
           }
+          if (title.includes("- Code Conversation")) {
+            //colors available https://developers.google.com/apps-script/reference/calendar/event-color
+            e.setColor(CalendarApp.EventColor.RED);
+          }
         }
       }
     }
